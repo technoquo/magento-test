@@ -1,1 +1,11 @@
-<p>Este es el bloque</p>
+<?php /** @var \Training\LayoutExample\Block\Layout\Bloque $block */?>
+<h2><?= $block->getSubTitle() ?></h2>
+
+<p>Este es el bloque </p>
+
+
+<?= $block->getChildHtml('layout_note') ?>
+
+
+<?= $block->getNodeHtml() ?>
+

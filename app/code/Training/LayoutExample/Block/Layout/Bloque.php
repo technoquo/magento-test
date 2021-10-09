@@ -18,5 +18,18 @@ class Bloque extends Template
          return $this;
 
       }
+      /**
+       *  @return string
+       */
+
+      public function getSubTitle(): string  
+      {
+          return 'Learn Magento 2 Development';
+      }
+
+      public function getNodeHtml(): string 
+      {
+          return $this->getLayout()->createBlock(Note::class)->toHtml();
+      }
 
 }

@@ -6,6 +6,7 @@ use Magento\Framework\App\ActionInterface;
 
 class Bloque implements ActionInterface
 {
+	
 	protected $resultFactory;
 
 	public function __construct(
