@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="learning_helloworld_display_text">
+        <observer name="mp_display_text" instance="Learning\HelloWorld\Observer\ChangeDisplayText" />
+    </event> 
+     <event name="learning_helloworld_products">
+        <observer name="Products" instance="Learning\HelloWorld\Observer\Products"/>
+    </event>  
+     <event name="catalog_controller_product_view">
+        <observer name="showproductdata" instance="Learning\HelloWorld\Observer\Product\Change" />
+    </event> 
+    <event name="checkout_cart_product_add_after">
+       <observer name="customprice" instance="Learning\HelloWorld\Observer\CustomPrice" />
+   </event>
+</config>

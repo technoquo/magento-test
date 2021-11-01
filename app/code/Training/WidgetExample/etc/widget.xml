@@ -1,0 +1,12 @@
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget class="Training\WidgetExample\Block\Widget\Title" id="widget_example">
+        <label>Widget Example</label>
+        <description>Widget Example</description>
+        <parameters>
+           <parameter name="title" xsi:type="text">
+             <label>Title</label>           
+           </parameter>
+        </parameters>      
+    </widget>
+</widgets>

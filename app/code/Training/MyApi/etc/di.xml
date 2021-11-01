@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<preference for="Training\MyApi\Api\PostManagementInterface" type="Training\MyApi\Model\PostManagement"/>
+     <preference for="Training\MyApi\Api\TestActionManagementInterface" type="Training\MyApi\Model\TestActionManagement"/>
+     <preference for="Training\MyApi\Api\CalculatorInterface" type="Training\MyApi\Model\CalculatorManagement"/>
+     <preference for="Training\MyApi\Api\MisProductostInterface" type="Training\MyApi\Model\ProductosManagement"/>
+</config>
